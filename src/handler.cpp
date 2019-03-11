@@ -88,7 +88,7 @@ void handler::handle_delete(http_request message)
 {
      ucout <<  message.to_string() << endl;
 
-        string rep = U("WRITE YOUR OWN DELETE OPERATION");
+        string rep = "WRITE YOUR OWN DELETE OPERATION";
       message.reply(status_codes::OK,rep);
     return;
 };
@@ -100,7 +100,7 @@ void handler::handle_delete(http_request message)
 void handler::handle_put(http_request message)
 {
     ucout <<  message.to_string() << endl;
-     string rep = U("WRITE YOUR OWN PUT OPERATION");
+     string rep = "WRITE YOUR OWN PUT OPERATION";
      message.reply(status_codes::OK,rep);
     return;
 };
